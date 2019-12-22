@@ -1,4 +1,4 @@
-#React JS Based Care First Practice Manager Web Client
+## React JS Based Care First Practice Manager Web Client
 
 ### Getting Started
 
