@@ -42,6 +42,8 @@ SelectInputStyled.select = styled.select`
   }
 `
 
+SelectInputStyled.option = styled.option``
+
 SelectInputStyled.errorMsg = styled.div`
   font-family: Arial;
   text-align: right;

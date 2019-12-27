@@ -16,11 +16,11 @@ const FormSelectInput = props => {
         value={value}
         onChange={e => handleFieldChange(field.name, e, currentForm)}
       >
-        <option value="">{field.placeholder}</option>
+        <SelectInputStyled.option value="">{field.placeholder}</SelectInputStyled.option>
         {field.options.map(option => (
-          <option key={option.id} value={option.value}>
+          <SelectInputStyled.option key={option.id} value={option.value}>
             {option.label}
-          </option>
+          </SelectInputStyled.option>
         ))}
       </SelectInputStyled.select>
       <SelectInputStyled.errorMsg>{errorMessage}</SelectInputStyled.errorMsg>
